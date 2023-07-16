@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Legend from "./components/Legend";
 import Destinations from "./components/Destinations";
 import Search from "./components/Search";
+import Select from "./components/Select";
+import WatchOut from "./components/WatchOut";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Legend />
       <Destinations />
       <Search />
+      <Select />
+      <WatchOut />
     </div>
   );
 }
